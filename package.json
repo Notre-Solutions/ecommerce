@@ -6,6 +6,22 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "dependencies": {
+    "@stripe/stripe-js": "^1.5.0",
+    "core-js": "^2.6.5",
+    "firebase": "^6.0.2",
+    "gatsby": "^2.4.3",
+    "gatsby-plugin-react-svg": "^3.0.0",
+    "gatsby-source-stripe": "^3.0.7",
+    "notrestudio": "^1.0.0",
+    "react": "^16.8.6",
+    "react-cookie": "^4.0.3",
+    "react-cookies": "^0.1.1",
+    "react-dom": "^16.8.6",
+    "react-modal": "^3.11.2",
+    "recompose": "^0.30.0",
+    "stripe": "^8.50.0"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Notre-Solutions/toolkit.git"
