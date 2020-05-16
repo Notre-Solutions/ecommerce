@@ -1,0 +1,19 @@
+{
+  "name": "notrestudio",
+  "version": "1.0.0",
+  "description": "Notre Studio toolkit",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Notre-Solutions/toolkit.git"
+  },
+  "author": "Notre Studio",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Notre-Solutions/toolkit/issues"
+  },
+  "homepage": "https://github.com/Notre-Solutions/toolkit#readme"
+}
