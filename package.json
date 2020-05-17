@@ -2,24 +2,45 @@
   "name": "notrestudio",
   "version": "1.0.7",
   "description": "Notre Studio toolkit",
-  "main": "index.js",
+  "main": "./build/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack"
+  },
+  "author": "Notre Studio",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.7.5",
+    "@babel/preset-env": "^7.7.6",
+    "@babel/preset-react": "^7.7.4",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.3.0",
+    "style-loader": "^1.0.1",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
   },
   "dependencies": {
-    "react": "^16.8.6",
-    "@babel/cli": "^7.1.5",
-    "@babel/core": "^7.1.6",
-    "@babel/preset-env": "^7.1.6",
-    "@babel/preset-react": "^7.0.0",
-    "react-dom": "^16.6.3"
+    "@material/react-button": "^0.15.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.12.0",
+    "@stripe/stripe-js": "^1.5.0",
+    "core-js": "^2.6.5",
+    "firebase": "^6.0.2",
+    "gatsby": "^2.4.3",
+    "gatsby-plugin-react-svg": "^3.0.0",
+    "gatsby-source-stripe": "^3.0.7",
+    "notrestudio": "^1.0.7",
+    "react-cookie": "^4.0.3",
+    "react-cookies": "^0.1.1",
+    "react-dom": "^16.8.6",
+    "react-modal": "^3.11.2",
+    "recompose": "^0.30.0",
+    "semantic-ui-css": "^2.4.1",
+    "stripe": "^8.50.0"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Notre-Solutions/toolkit.git"
   },
-  "author": "Notre Studio",
-  "license": "MIT",
   "bugs": {
     "url": "https://github.com/Notre-Solutions/toolkit/issues"
   },
