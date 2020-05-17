@@ -9,7 +9,7 @@
   "dependencies": {
     "@stripe/stripe-js": "^1.5.0",
     "core-js": "^2.6.5",
-    "firebase": "^6.0.2",
+    "firebase": "^7.14.4",
     "gatsby": "^2.4.3",
     "gatsby-plugin-react-svg": "^3.0.0",
     "gatsby-source-stripe": "^3.0.7",
