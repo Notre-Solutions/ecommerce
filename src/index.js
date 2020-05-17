@@ -32,7 +32,7 @@ class Index extends Component {
   render() {
     return (
       <div>
-        <p>TEMP EXPORT FILE</p>
+        <p>Loading from Index.js</p>
       </div>
     );
   }
