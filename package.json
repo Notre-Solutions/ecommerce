@@ -1,6 +1,6 @@
 {
   "name": "notrestudio",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Notre Studio toolkit",
   "main": "index.js",
   "scripts": {
