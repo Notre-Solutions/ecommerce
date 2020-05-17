@@ -1,32 +1,32 @@
-import React, { Component } from "react";
-import UpdateDetailsForm from "./components/AddDetials";
-import { CartContext, CartProvider, Cart } from "./components/cart";
+import React, { Component } from 'react';
+import UpdateDetailsForm from './components/AddDetials';
+import { CartContext, CartProvider, Cart } from './components/cart';
 import {
   FirebaseContext,
   withFirebase,
   getFirebase,
-} from "./components/Firebase";
-import LoginManagment from "./components/LoginManagement";
-import PasswordChange from "./components/PasswordChange";
-import PasswordForget from "./components/PasswordForget";
+} from './components/Firebase';
+import LoginManagment from './components/LoginManagement';
+import PasswordChange from './components/PasswordChange';
+import PasswordForget from './components/PasswordForget';
 import {
   AuthUserContext,
   withAuthentication,
   withAuthorization,
   withEmailVerification,
-} from "./components/Session";
-import ShoppingBag from "./components/ShoppingBag";
+} from './components/Session';
+import ShoppingBag from './components/ShoppingBag';
 import {
   SignInGoogle,
   SignInFacebook,
   SignInTwitter,
   SignInForm,
-} from "./components/SignIn";
-import SignOut from "./components/SignOut";
-import { SignUpLink, withFBSignUp } from "./components/SignUp";
-import { Checkout, Products } from "./components/Stripe";
-import UserData from "./components/UserData";
-import { UserList } from "./components/Users";
+} from './components/SignIn';
+import SignOut from './components/SignOut';
+import { SignUpLink, withFBSignUp } from './components/SignUp';
+import { Checkout } from './components/Stripe';
+import UserData from './components/UserData';
+import { UserList } from './components/Users';
 
 class Index extends Component {
   render() {
@@ -63,7 +63,6 @@ export {
   SignUpLink,
   withFBSignUp,
   Checkout,
-  Products,
   UserData,
   UserList,
 };

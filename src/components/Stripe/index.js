@@ -1,4 +1,4 @@
-import Checkout from './Checkout'
-import Products from './Products'
+import Checkout from './Checkout';
+// import Products from './Products'
 
-export {Checkout, Products}
+export { Checkout }; //, Products}

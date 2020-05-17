@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-import { Link } from 'gatsby';
-import { PasswordForgetLink } from '../PasswordForget'
 
 import { withFirebase } from '../Firebase';
 
@@ -45,13 +43,13 @@ class UpdateDetialsForm extends Component {
     return (
       <form onSubmit={this.onSubmit}>
         <input
-          name="email"
+          name='email'
           value={emailAddress}
           onChange={this.onChange}
-          type="text"
-          placeholder="Email Address"
+          type='text'
+          placeholder='Email Address'
         />
-        <button disabled={isInvalid} type="submit">
+        <button disabled={isInvalid} type='submit'>
           Reset My Password
         </button>
 
@@ -60,6 +58,5 @@ class UpdateDetialsForm extends Component {
     );
   }
 }
-
 
 export default withFirebase(UpdateDetialsForm);

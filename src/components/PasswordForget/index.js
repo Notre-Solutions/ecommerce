@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Link } from 'gatsby';
+// import { Link } from 'gatsby';
 import { withFirebase } from '../Firebase';
 
 const INITIAL_STATE = {
@@ -14,7 +14,7 @@ class PasswordForgetForm extends Component {
     this.state = { ...INITIAL_STATE };
   }
 
-  onSubmit = event => {
+  onSubmit = (event) => {
     const { email } = this.state;
 
     this.props.firebase
@@ -22,14 +22,14 @@ class PasswordForgetForm extends Component {
       .then(() => {
         this.setState({ ...INITIAL_STATE });
       })
-      .catch(error => {
+      .catch((error) => {
         this.setState({ error });
       });
 
     event.preventDefault();
   };
 
-  onChange = event => {
+  onChange = (event) => {
     this.setState({ [event.target.name]: event.target.value });
   };
 
@@ -41,13 +41,13 @@ class PasswordForgetForm extends Component {
     return (
       <form onSubmit={this.onSubmit}>
         <input
-          name="email"
+          name='email'
           value={email}
           onChange={this.onChange}
-          type="text"
-          placeholder="Email Address"
+          type='text'
+          placeholder='Email Address'
         />
-        <button disabled={isInvalid} type="submit">
+        <button disabled={isInvalid} type='submit'>
           Reset My Password
         </button>
 
@@ -58,12 +58,10 @@ class PasswordForgetForm extends Component {
 }
 
 const PasswordForgetLink = (link) => (
-  <p>
-    <Link to={link}>Forgot Password?</Link>
-  </p>
+  <p>{/* <Link to={link}>Forgot Password?</Link> */}</p>
 );
 
-const withFBPasswordForgetForm = withFirebase(PasswordForgetForm)
+const withFBPasswordForgetForm = withFirebase(PasswordForgetForm);
 
 export default withFBPasswordForgetForm;
 
